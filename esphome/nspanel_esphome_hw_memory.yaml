@@ -11,8 +11,8 @@ substitutions:
   ## local yaml substitutions ##
   ##############################
   BOOT_STEP_HW_MEMORY: '6'
-  GPIO_PSRAM_CLK_PIN: 5
-  GPIO_PSRAM_CS_PIN: 18
+  #GPIO_PSRAM_CLK_PIN: 5
+  #GPIO_PSRAM_CS_PIN: 18
   TAG_HW_MEMORY: nspanel.hw.memory
 
 esp32:
