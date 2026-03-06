@@ -44,6 +44,8 @@ nspanel_ha_blueprint:
 
 psram:
   id: ext_ram
+  mode: quad                
+  speed: 80MHz   
 
 script:
   - id: !extend dump_config
