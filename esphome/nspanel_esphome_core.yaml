@@ -23,7 +23,7 @@ packages:
   base:              !include nspanel_esphome_base.yaml
   boot:              !include nspanel_esphome_boot.yaml
   datetime:          !include nspanel_esphome_datetime.yaml
-  hw_buttons:        !include nspanel_esphome_hw_buttons.yaml
+  #hw_buttons:        !include nspanel_esphome_hw_buttons.yaml
   hw_display:        !include nspanel_esphome_hw_display.yaml
   #hw_memory:         !include nspanel_esphome_hw_memory.yaml
   hw_wifi:           !include nspanel_esphome_hw_wifi.yaml
