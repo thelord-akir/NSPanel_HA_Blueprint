@@ -29,7 +29,7 @@ button:
 esp32:
   # Extended by:
   #  - hw_memory
-  board: esp32dev
+  board: esp-wrover-kit
   framework:
     type: esp-idf
 
