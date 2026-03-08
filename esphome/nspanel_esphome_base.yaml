@@ -47,7 +47,7 @@ external_components:
   - source:
       type: git
       url: https://github.com/thelord-akir/NSPanel_HA_Blueprint
-      ref: v${version}
+      ref: main
     refresh: 300s
     components:
       - nspanel_ha_blueprint
