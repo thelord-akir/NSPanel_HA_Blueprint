@@ -42,8 +42,8 @@ nspanel_ha_blueprint:
   #psram_clk_pin: ${GPIO_PSRAM_CLK_PIN}
   #psram_cs_pin: ${GPIO_PSRAM_CS_PIN}
 
-psram:
-  id: ext_ram
+#psram:
+#  id: ext_ram
 
 script:
   - id: !extend dump_config
