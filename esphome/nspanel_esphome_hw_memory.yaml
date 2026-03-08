@@ -10,9 +10,9 @@ substitutions:
   ## Change only in your      ##
   ## local yaml substitutions ##
   ##############################
-  BOOT_STEP_HW_MEMORY: '6'
-  GPIO_PSRAM_CLK_PIN: 5
-  GPIO_PSRAM_CS_PIN: 18
+  #BOOT_STEP_HW_MEMORY: '6'
+  #GPIO_PSRAM_CLK_PIN: 5
+  #GPIO_PSRAM_CS_PIN: 18
   TAG_HW_MEMORY: nspanel.hw.memory
 
 esp32:
@@ -39,8 +39,8 @@ esphome:
 
 nspanel_ha_blueprint:
   main_task_stack_size: 16384  # To-do: Review this when PR#10564 gets merged
-  psram_clk_pin: ${GPIO_PSRAM_CLK_PIN}
-  psram_cs_pin: ${GPIO_PSRAM_CS_PIN}
+  #psram_clk_pin: ${GPIO_PSRAM_CLK_PIN}
+  #psram_cs_pin: ${GPIO_PSRAM_CS_PIN}
 
 psram:
   id: ext_ram
