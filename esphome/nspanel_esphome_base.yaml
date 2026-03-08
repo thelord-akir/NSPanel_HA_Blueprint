@@ -14,8 +14,8 @@ substitutions:
   BOOT_STEP_BASE: 0
   device_name: nspanel
   friendly_name: ${device_name}
-  GPIO_PSRAM_CLK_PIN: '5'
-  GPIO_PSRAM_CS_PIN: '18'
+  #GPIO_PSRAM_CLK_PIN: '5'
+  #GPIO_PSRAM_CS_PIN: '18'
   name: ${device_name}
   ota_password: ${wifi_password}
   project_tag: nspanel_ha_blueprint
