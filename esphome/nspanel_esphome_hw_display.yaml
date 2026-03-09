@@ -53,6 +53,7 @@ binary_sensor:
 display:
   - id: disp1
     platform: nextion
+    rotate: 180°
     uart_id: tf_uart
     # dump_device_info: true  # To-do: Enable when pr#13566 is released
     update_interval: never
